@@ -1,0 +1,38 @@
+{
+  "name": "@ssd-solar/tiny-ipc",
+  "version": "0.0.1",
+  "description": "Tiny IPC is an IPC library written in modern JS, meant to have the least code possible",
+  "main": "index.js",
+  "template": {
+    "extends": [
+      "node",
+      "eslint"
+    ]
+  },
+  "scripts": {
+    "test": "mocha -A",
+    "cov": "nyc mocha",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "keywords": [
+    "tiny-ipc",
+    "ipc",
+    "rpc",
+    "network"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-aegir-standalone": "*",
+    "eslint-config-oclif": "*",
+    "mkgs-tool": "^0.1.9",
+    "mocha": "*",
+    "nyc": "*"
+  }
+}
