@@ -34,5 +34,13 @@
     "mkgs-tool": "^0.1.9",
     "mocha": "*",
     "nyc": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssd-solar/tiny-ipc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssd-solar/tiny-ipc/issues"
+  },
+  "homepage": "https://github.com/ssd-solar/tiny-ipc#readme"
 }
